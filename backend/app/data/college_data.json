@@ -1,0 +1,90 @@
+{
+    "intents": [
+        {
+            "tag": "admission",
+            "patterns": [
+                "how do I apply for admission",
+                "what are the admission requirements",
+                "when is the admission deadline",
+                "what documents do I need for admission",
+                "how to get admission in this college"
+            ],
+            "responses": [
+                "To apply for admission, you need to visit our website and fill out the online application form. The basic requirements include your high school transcripts, standardized test scores, and a personal statement.",
+                "The admission process requires your academic records, test scores, and a completed application form. You can find detailed requirements on our website."
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "what courses are offered",
+                "tell me about the courses",
+                "what programs do you have",
+                "what majors are available",
+                "what subjects can I study"
+            ],
+            "responses": [
+                "We offer a wide range of programs including Computer Science, Engineering, Business, Arts, and Sciences. Each program has various specializations available.",
+                "Our college offers multiple undergraduate and graduate programs across different fields. You can find the complete list of courses on our website."
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "what are the tuition fees",
+                "how much does it cost",
+                "what is the fee structure",
+                "tell me about the fees",
+                "what are the expenses"
+            ],
+            "responses": [
+                "Our tuition fees vary by program and level of study. We also offer various scholarships and financial aid options. Please visit our financial aid office for detailed information.",
+                "The fee structure depends on your chosen program. We recommend checking our website or contacting the admissions office for specific details."
+            ]
+        },
+        {
+            "tag": "campus",
+            "patterns": [
+                "tell me about the campus",
+                "what facilities are available",
+                "where is the campus located",
+                "what's on campus",
+                "campus facilities"
+            ],
+            "responses": [
+                "Our campus features modern classrooms, well-equipped laboratories, a library, sports facilities, and student housing. We're located in the heart of the city with easy access to public transportation.",
+                "The campus includes academic buildings, research centers, recreational facilities, and student residences. We also have various student clubs and organizations."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "good morning",
+                "good afternoon",
+                "hey"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi! Welcome to our college information system. What would you like to know?",
+                "Good day! I'm here to help you with any questions about our college."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "thank you",
+                "thanks"
+            ],
+            "responses": [
+                "Goodbye! Feel free to ask more questions anytime.",
+                "Thank you for your interest in our college. Have a great day!",
+                "You're welcome! Don't hesitate to reach out if you have more questions."
+            ]
+        }
+    ]
+} 
